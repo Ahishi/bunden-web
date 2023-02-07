@@ -37,23 +37,22 @@
         <div class="md:flex">
             <Navigation/>
             {#if visible}
-                <section transition:fade class="mx-8 md:mx-16 xl:mx-32 2xl:mx-56 pt-16 md:py-16">
-                    <div id="overview" class="-mt-32 pt-32"></div>
-                    <Overview/>
-                    <div id="resources" class="-mt-16 pt-16 border-b"></div>
-                    <Resources/>
-                    <div id="clarity" class="-mt-16 pt-16 border-b"></div>
-                    <Clarity/>
-                    <div id="colors" class="-mt-16 pt-16 border-b"></div>
-                    <Colors/>
-                </section>
+                <article>
+                    <section transition:fade class="mx-8 md:mx-16 xl:mx-32 2xl:mx-56 pt-16 md:py-16">
+                        <div id="overview" class="-mt-32 pt-32"></div>
+                        <Overview/>
+                        <div id="resources" class="-mt-16 pt-16 border-b"></div>
+                        <Resources/>
+                        <div id="clarity" class="-mt-16 pt-16 border-b"></div>
+                        <Clarity/>
+                        <div id="colors" class="-mt-16 pt-16 border-b"></div>
+                        <Colors/>
+                    </section>
+                    <Footer/>
+                </article>
             {/if}
         </div>
     </div>
-
-    {#if visible}
-        <Footer/>
-    {/if}
 
 </main>
 

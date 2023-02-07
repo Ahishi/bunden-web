@@ -1,7 +1,3 @@
-<script>
-    import ResolutionDropdown from "../ResolutionDropdown.svelte";
-</script>
-
 <!-- Resources -->
 <h2 class="text-4xl font-medium border-b-4 border-bunden-dark-orange w-fit mb-8 my-16">
     Resources</h2>
@@ -12,58 +8,52 @@
         <!-- Full-Color icons -->
         <div class="grid grid-cols-2 gap-x-8">
             <div class="rounded-xl bg-dark max-h-[400px] xl:py-2 flex">
-                <img src="src/assets/icon-dark.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-dark.png" alt="dark-icon"
                      class="object-contain mx-auto min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="rounded-xl bg-light max-h-[400px] xl:py-2 border-2 border-gray-300 flex">
-                <img src="src/assets/icon-light.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-light.png" alt="light-icon"
                      class="object-contain mx-auto rounded-xl min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Primary Dark Background</h4>
-                <ResolutionDropdown/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Primary Light Background</h4>
-                <ResolutionDropdown/>
             </div>
         </div>
         <!-- Monocolor icons -->
         <div class="grid grid-cols-2 gap-x-8">
             <div class="rounded-xl bg-dark max-h-[400px] xl:py-2 flex">
-                <img src="src/assets/icon-mono.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-mono.png" alt="dark-monocolor-icon"
                      class="object-contain mx-auto  min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="rounded-xl bg-light max-h-[400px] xl:py-2 border-2 border-gray-300 flex">
-                <img src="src/assets/icon-mono-light.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-mono-light.png" alt="ligh-monocolor-icon"
                      class="object-contain mx-auto rounded-xl min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Monocolor Dark Background</h4>
-                <ResolutionDropdown/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Monocolor Light Background</h4>
-                <ResolutionDropdown/>
             </div>
         </div>
         <!-- Monochrome icons -->
         <div class="grid grid-cols-2 gap-x-8">
             <div class="rounded-xl bg-dark max-h-[400px] xl:py-2 flex">
-                <img src="src/assets/icon-white.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-white.png" alt="black-monochrome-icon"
                      class="object-contain mx-auto min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="rounded-xl bg-light max-h-[400px] xl:py-2 border-2 border-gray-300 flex">
-                <img src="src/assets/icon-black.png" alt="dark-margined-icon"
+                <img src="src/assets/icon-black.png" alt="white-monochrome-icon"
                      class="object-contain mx-auto rounded-xl min-h-[150px] min-w-[150px]"/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Monochrome Dark Background</h4>
-                <ResolutionDropdown/>
             </div>
             <div class="xl:flex justify-between mt-1">
                 <h4>Monochrome Light Background</h4>
-                <ResolutionDropdown/>
             </div>
         </div>
 
@@ -84,58 +74,52 @@
         <!-- Full-Color logos -->
         <div class="grid 2xl:grid-cols-2 gap-8">
             <div>
-                <img src="src/assets/full-dark.png" alt="dark-margined-icon"
+                <img src="src/assets/full-dark.png" alt="dark-logo"
                      class="object-contain rounded-xl bg-dark px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Primary Dark Background</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
             <div>
-                <img src="src/assets/full-light.png" alt="dark-margined-icon"
+                <img src="src/assets/full-light.png" alt="light-logo"
                      class="object-contain rounded-xl bg-light border-2 border-gray-300 px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Primary Light Background</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
         </div>
         <!-- Monocolor logos -->
         <div class="grid 2xl:grid-cols-2 gap-8">
             <div>
-                <img src="src/assets/mono-color-full-size.png" alt="dark-margined-icon"
+                <img src="src/assets/mono-color-full-size.png" alt="dark-monocolor-logo"
                      class="object-contain rounded-xl bg-dark px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Monocolor Dark Background</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
 
             <div>
-                <img src="src/assets/mono-dark-color-full-size.png" alt="dark-margined-icon"
+                <img src="src/assets/mono-dark-color-full-size.png" alt="light-monocolor-logo"
                      class="object-contain rounded-xl bg-light border-2 border-gray-300 px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Monocolor Light Background</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
         </div>
         <!-- Monochrome logos -->
         <div class="grid 2xl:grid-cols-2 gap-8">
             <div>
-                <img src="src/assets/white-full-size.png" alt="dark-margined-icon"
+                <img src="src/assets/white-full-size.png" alt="black-monochrome-logo"
                      class="object-contain rounded-xl bg-dark px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Monochrome</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
             <div>
-                <img src="src/assets/black-full-size.png" alt="dark-margined-icon"
+                <img src="src/assets/black-full-size.png" alt="white-monochrome-logo"
                      class="object-contain rounded-xl bg-light border-2 border-gray-300 px-16 py-8"/>
                 <div class="md:flex justify-between mt-1">
                     <h4>Monochrome</h4>
-                    <ResolutionDropdown/>
                 </div>
             </div>
         </div>
