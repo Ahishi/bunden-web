@@ -1,12 +1,12 @@
 <script lang="ts">
     import {onMount} from 'svelte'
     import {fade} from 'svelte/transition'
-    import Navigation from "./Components/Navigation.svelte";
-    import Overview from "./Components/Sections/Overview.svelte";
-    import Resources from "./Components/Sections/Resources.svelte";
-    import Clarity from "./Components/Sections/Clarity.svelte";
-    import Colors from "./Components/Sections/Colors.svelte";
-    import Footer from "./Components/Footer.svelte";
+    import Navigation from "./components/Navigation.svelte";
+    import Overview from "./components/sections/Overview.svelte";
+    import Resources from "./components/sections/Resources.svelte";
+    import Clarity from "./components/sections/Clarity.svelte";
+    import Colors from "./components/sections/Colors.svelte";
+    import Footer from "./components/Footer.svelte";
 
     let visible = false
 
@@ -21,7 +21,7 @@
 <main id="main" class="transition ease-in-out delay-150">
     <header class="bg-dark h-64 flex">
         <a href="/" class="fixed top-0 ml-16 left-0 z-30">
-            <img src="src/assets/icon-dark.png" alt="full-color-dark-icon"
+            <img src="/images/icon-dark.png" alt="full-color-dark-icon"
                  class="h-[64px] py-2 -ml-2 object-contain"/>
         </a>
         <div class="w-fit mx-auto my-auto">

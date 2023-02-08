@@ -10,6 +10,7 @@
            class="opacity-80 transition duration-150 hover:opacity-100 hover:underline active:opacity-100">Colors</a>
     </div>
     <div class="border-t fixed bottom-0 left-0 py-8 text-center w-[282px] bg-white">
-        <a href="download" class="opacity-80 transition duration-150 hover:opacity-100 text-blue-700 block hover:underline active:opacity-100">Download</a>
+        <a href="/download/BundenBrandResources.zip"
+           class="opacity-80 transition duration-150 hover:opacity-100 text-blue-700 block hover:underline active:opacity-100">Download</a>
     </div>
 </nav>

@@ -3,7 +3,7 @@
 
 <article class="mb-8">
 
-    <img src="src/assets/dark-bunden.png" alt="dark-margined-icon"
+    <img src="/images/dark-bunden.png" alt="dark-margined-icon"
          class="object-contain rounded-xl"/>
 
     <div class="my-16">
@@ -56,14 +56,14 @@
     <section class="flex flex-col gap-y-8 mt-16">
         <div class="grid 2xl:grid-cols-2 gap-8">
             <div>
-                <img src="src/assets/bunden-backgrounded-n.png" alt="not-correct-clarity"
+                <img src="/images/bunden-backgrounded-n.png" alt="not-correct-clarity"
                      class="object-contain rounded-xl ring-4 ring-offset-4 ring-red-400"/>
                 <div class="md:flex justify-between mt-1">
                     <h4 class="mt-2">Incorrect</h4>
                 </div>
             </div>
             <div>
-                <img src="src/assets/bunden-backgrounded.png" alt="correct-clarity"
+                <img src="/images/bunden-backgrounded.png" alt="correct-clarity"
                      class="object-contain rounded-xl ring-4 ring-offset-4 ring-blue-400"/>
                 <div class="md:flex justify-between mt-1">
                     <h4 class="mt-2">Correct</h4>
